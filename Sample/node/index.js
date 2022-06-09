@@ -9,13 +9,13 @@ const config = {
     port: 3306
 };
 
-var people = '';
-const mysql = require('mysql')
-const connection = mysql.createConnection(config)
-createDb(connection);
-fillPeople(connection);
-getPeople();
-connection.end()
+ var people = '';
+ const mysql = require('mysql')
+ const connection = mysql.createConnection(config)
+ createDb(connection);
+ fillPeople(connection);
+ getPeople();
+ connection.end()
 
 
 app.get('/', (req,res) => {
