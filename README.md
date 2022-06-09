@@ -3,6 +3,7 @@ A simple image with a Node.Js app (Container 1) connecting to MySql (Container 2
 
 Steps:
 1 - Use this command in yaml directory: docker compose up -d --build
+
 2 - Check using this url: http://localhost:8080/
 
 Workflow:
