@@ -11,6 +11,11 @@ Steps:
 
 
 
+Important:
+
+Wait a few seconds on first run for the database to be created, just press f5 a few seconds after the container run
+
+
 Workflow:
 
 browser -> Request -> nginx (port 8080) -> nodeJs (port 3000) -> MySql (port 3006) -> nodeJs -> nginx -> response -> browser
